@@ -16,7 +16,7 @@ export default function Contact() {
         <FadeIn delay={100}>
           <p className="text-lg text-white/50 leading-relaxed mb-12">
             Open to AI product roles, collaboration, or a conversation
-            about the future of AI and space.
+            about the future of AI.
           </p>
         </FadeIn>
         <FadeIn delay={200}>

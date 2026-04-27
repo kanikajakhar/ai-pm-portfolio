@@ -4,7 +4,7 @@ const highlights = [
   {
     title: "Google AI Hackathon — 2nd Place",
     subtitle: "AI agent for the visually impaired using Gemini",
-    date: "2025",
+    date: "2026",
   },
   {
     title: "Speaker & Panelist",
@@ -19,7 +19,7 @@ const highlights = [
   {
     title: "Microsoft Hackathon Winner",
     subtitle: "XR app development",
-    date: "2017",
+    date: "2016",
   },
 ];
 

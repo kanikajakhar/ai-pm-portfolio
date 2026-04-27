@@ -2,13 +2,13 @@ import FadeIn from "./FadeIn";
 
 const experiences = [
   {
-    role: "Summer Consultant",
+    role: "Consultant",
     company: "Boston Consulting Group",
     period: "2025",
     bullets: [
       "Architected enterprise-wide AI inclusion framework for a Fortune-500 utility; identified $15M+ in operational efficiencies",
       "Spearheaded change management with C-suite and Engineering lead alignment",
-      "Defined vendor strategy and transformation roadmap, including RFP design",
+      "Defined vendor strategy and transformation roadmap, including RFP design with specialzed Quality SLAs",
     ],
   },
   {
@@ -18,7 +18,7 @@ const experiences = [
     bullets: [
       "Shipped 5+ end-to-end products including drone tracking and IoT platforms; 27% user growth",
       "Launched 5 NavIC Personal Tracker accessories in two years",
-      "Reduced annual transport costs 15% with automated billing for 20,000 government vehicles",
+      "Reduced annual transport costs 15% with automated billing for government vehicles",
       "Led Bhuvan API geospatial platform; increased API call volume 20%",
     ],
   },

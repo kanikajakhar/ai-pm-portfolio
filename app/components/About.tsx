@@ -21,7 +21,7 @@ export default function About() {
             <span className="text-foreground font-medium">management consulting</span>, and{" "}
             <span className="text-foreground font-medium">hands-on ML</span> experience.
             At ISRO, I led cross-functional teams to ship multiple software
-            products used widely in the scientific community, defence forces and mobile applications
+            products used widely in the scientific community, defence forces and other consumer mobile applications.
           </p>
         </FadeIn>
         <FadeIn delay={200}>

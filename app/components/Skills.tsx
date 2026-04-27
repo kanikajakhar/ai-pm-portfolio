@@ -7,22 +7,22 @@ const skillGroups = [
     skills: [
       "Product Strategy & Roadmapping",
       "Cross-functional Leadership",
-      "PRD / BRD Writing",
+      "Product Requirement Document",
       "Stakeholder Management (C-suite)",
-      "Agile Sprints & Delivery",
-      "Vendor Strategy & RFP Design",
+      "UI/UX Design",
+      "Competitive Market Analysis",
     ],
   },
   {
     title: "AI / ML",
     color: "bg-violet-500",
     skills: [
-      "ML Model Development (LSTM)",
       "AI Strategy & Inclusion Frameworks",
-      "Gemini / Generative AI",
-      "Sensor Fusion & Edge AI",
       "A/B Testing & Experimentation",
       "Data-Driven Product Decisions",
+      "ML Model Development",
+      "Gemini / Generative AI",
+      "Sensor Fusion & Edge AI",
     ],
   },
   {
@@ -34,19 +34,17 @@ const skillGroups = [
       "Power BI",
       "MS Office (Excel-VBA)",
       "JIRA",
-      "API Platforms (Bhuvan)",
+      "API Platforms",
     ],
   },
   {
     title: "Leadership",
     color: "bg-orange-500",
     skills: [
-      "20+ Speaking Engagements",
       "Gender Diversity Advocacy",
       "Change Management",
       "Public-Private Partnerships",
-      "UI/UX Redesign",
-      "Competitive Market Analysis",
+      
     ],
   },
 ];
