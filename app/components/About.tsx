@@ -19,7 +19,7 @@ export default function About() {
             I&apos;m a Product Manager with a unique blend of{" "}
             <span className="text-foreground font-medium">space technology</span>,{" "}
             <span className="text-foreground font-medium">management consulting</span>, and{" "}
-            <span className="text-foreground font-medium">hands-on ML</span> experience.
+            <span className="text-foreground font-medium">hands-on AI/ML</span> experience.
             At ISRO, I led cross-functional teams to ship multiple software
             products used widely in the scientific community, defence forces and other consumer mobile applications.
           </p>
