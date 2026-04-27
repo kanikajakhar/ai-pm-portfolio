@@ -20,15 +20,13 @@ export default function Home() {
         <Writing />
         <Contact />
       </main>
-      <footer className="py-10 px-6 border-t border-foreground/5">
-        <div className="max-w-[980px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-secondary/60">
-            &copy; {new Date().getFullYear()} Kanika Jakhar
-          </p>
-          <p className="text-xs text-secondary/40 italic">
-            My code lives on the moon.
-          </p>
-        </div>
+      <footer className="py-8 px-6 bg-black text-center">
+        <p className="text-xs text-white/20 italic mb-1">
+          My code lives on the moon.
+        </p>
+        <p className="text-xs text-white/15">
+          &copy; {new Date().getFullYear()} Kanika Jakhar
+        </p>
       </footer>
     </>
   );

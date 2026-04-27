@@ -2,76 +2,85 @@ import FadeIn from "./FadeIn";
 
 const skillGroups = [
   {
-    title: "Product",
+    title: "Product Management",
+    color: "bg-blue-500",
     skills: [
-      "Product Strategy",
-      "Roadmapping",
+      "Product Strategy & Roadmapping",
       "Cross-functional Leadership",
       "PRD / BRD Writing",
-      "Stakeholder Management",
-      "Vendor Strategy & RFP",
+      "Stakeholder Management (C-suite)",
+      "Agile Sprints & Delivery",
+      "Vendor Strategy & RFP Design",
     ],
   },
   {
     title: "AI / ML",
+    color: "bg-violet-500",
     skills: [
-      "LSTM Model Development",
-      "AI Strategy Frameworks",
-      "Generative AI / Gemini",
+      "ML Model Development (LSTM)",
+      "AI Strategy & Inclusion Frameworks",
+      "Gemini / Generative AI",
       "Sensor Fusion & Edge AI",
-      "A/B Testing",
-      "Data-Driven Decisions",
+      "A/B Testing & Experimentation",
+      "Data-Driven Product Decisions",
     ],
   },
   {
     title: "Technical",
+    color: "bg-cyan-500",
     skills: [
       "Python",
       "SQL",
       "Power BI",
-      "Excel-VBA",
+      "MS Office (Excel-VBA)",
       "JIRA",
-      "API Platforms",
+      "API Platforms (Bhuvan)",
     ],
   },
   {
     title: "Leadership",
+    color: "bg-orange-500",
     skills: [
       "20+ Speaking Engagements",
       "Gender Diversity Advocacy",
       "Change Management",
       "Public-Private Partnerships",
       "UI/UX Redesign",
-      "Market Analysis",
+      "Competitive Market Analysis",
     ],
   },
 ];
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-32 px-6 bg-tertiary">
-      <div className="max-w-[980px] mx-auto">
+    <section id="skills" className="py-28 md:py-36 px-6 bg-tertiary">
+      <div className="max-w-[1024px] mx-auto">
         <FadeIn>
-          <h2 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight mb-16">
-            Skills
-          </h2>
+          <div className="text-center mb-16">
+            <p className="text-sm font-medium tracking-wider text-accent uppercase mb-3">
+              Skills
+            </p>
+            <h2 className="text-4xl md:text-[48px] font-bold tracking-tight leading-tight">
+              What I work with.
+            </h2>
+          </div>
         </FadeIn>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {skillGroups.map((group, i) => (
-            <FadeIn key={group.title} delay={i * 80}>
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-secondary/60 mb-5">
-                {group.title}
-              </h3>
-              <ul className="space-y-3">
-                {group.skills.map((skill) => (
-                  <li
-                    key={skill}
-                    className="text-[15px] text-secondary"
-                  >
-                    {skill}
-                  </li>
-                ))}
-              </ul>
+            <FadeIn key={group.title} delay={i * 100}>
+              <div className="bg-background rounded-2xl p-7">
+                <div className="flex items-center gap-2 mb-6">
+                  <span className={`w-2.5 h-2.5 rounded-full ${group.color}`} />
+                  <h3 className="text-sm font-semibold">{group.title}</h3>
+                </div>
+                <ul className="space-y-3">
+                  {group.skills.map((skill) => (
+                    <li key={skill} className="text-[14px] text-secondary leading-snug">
+                      {skill}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </FadeIn>
           ))}
         </div>

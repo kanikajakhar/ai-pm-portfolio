@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, ReactNode } from "react";
 
-export default function FadeIn({ children, delay = 0 }: { children: ReactNode; delay?: number }) {
+export default function FadeIn({ children, delay = 0, className = "" }: { children: ReactNode; delay?: number; className?: string }) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ export default function FadeIn({ children, delay = 0 }: { children: ReactNode; d
           observer.unobserve(el);
         }
       },
-      { threshold: 0.15 }
+      { threshold: 0.1 }
     );
     observer.observe(el);
     return () => observer.disconnect();
@@ -25,7 +25,7 @@ export default function FadeIn({ children, delay = 0 }: { children: ReactNode; d
   return (
     <div
       ref={ref}
-      className="opacity-0 translate-y-6 transition-all duration-700 ease-out [&.is-visible]:opacity-100 [&.is-visible]:translate-y-0"
+      className={`opacity-0 translate-y-8 transition-all duration-[900ms] ease-[cubic-bezier(0.16,1,0.3,1)] [&.is-visible]:opacity-100 [&.is-visible]:translate-y-0 ${className}`}
     >
       {children}
     </div>
