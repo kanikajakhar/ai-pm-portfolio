@@ -20,9 +20,17 @@ export default function Home() {
         <Writing />
         <Contact />
       </main>
-      <footer className="py-8 px-6 text-center text-sm text-zinc-400 border-t border-zinc-200 dark:border-zinc-800">
-        &copy; {new Date().getFullYear()} Kanika Jakhar. Built with Next.js &amp;
-        Tailwind CSS.
+      <footer className="relative py-12 px-6 border-t border-gray-200/80 dark:border-gray-800/80">
+        <div className="max-w-6xl mx-auto flex flex-col items-center gap-4">
+          <div className="flex items-center gap-2 text-sm text-amber-600 dark:text-amber-400 font-medium">
+            <span>&#127769;</span>
+            <span>My code lives on the moon</span>
+            <span>&#127769;</span>
+          </div>
+          <p className="text-sm text-gray-400">
+            &copy; {new Date().getFullYear()} Kanika Jakhar. Built with Next.js &amp; Tailwind CSS.
+          </p>
+        </div>
       </footer>
     </>
   );
