@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="relative max-w-[820px] text-center">
         <FadeIn>
           <p className="text-sm md:text-base font-medium tracking-wide text-white/40 uppercase mb-6">
-            AI Product Manager
+            AI Product Manager & Strategist
           </p>
         </FadeIn>
         <FadeIn delay={100}>
@@ -19,8 +19,7 @@ export default function Hero() {
         </FadeIn>
         <FadeIn delay={200}>
           <p className="text-xl md:text-2xl text-white/70 font-light leading-relaxed max-w-xl mx-auto mb-6">
-            Building AI-powered products at the intersection of space
-            technology, enterprise strategy, and emerging technology.
+            Leading AI products that transform complex technical infrastructure into lean, high-ROI operations
           </p>
         </FadeIn>
         <FadeIn delay={300}>
@@ -32,7 +31,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm animate-float">
             <span className="text-sm">&#127769;</span>
             <span className="text-xs text-white/50 font-medium">
-              My code lives on the moon
+             Fun Fact: My code lives on the moon
             </span>
           </div>
         </FadeIn>
