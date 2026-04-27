@@ -15,9 +15,9 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Philosophy />
         <About />
         <Projects />
-        <Philosophy />
         <Skills />
         <Experience />
         <Yale />
