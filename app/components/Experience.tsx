@@ -1,32 +1,43 @@
 const experiences = [
   {
-    role: "Senior Product Manager, AI Platform",
-    company: "Tech Company",
-    period: "2023 – Present",
+    role: "Summer Consultant",
+    company: "Boston Consulting Group (BCG)",
+    period: "2025",
     bullets: [
-      "Lead product strategy for the company's AI/ML platform serving internal teams across 4 product lines",
-      "Defined success metrics and experimentation frameworks for ML model deployments, reducing time-to-production by 40%",
-      "Partnered with research scientists to translate SOTA papers into shipping features within one quarter",
+      "Architected enterprise-wide AI inclusion framework for a Fortune-500 utility; developed financial model identifying $15M+ in operational efficiencies",
+      "Spearheaded change management by building C-suite and Engineering lead alignment, managing executive communications, and driving adoption of strategic organizational shifts",
+      "Defined vendor strategy and transformation roadmap, including RFP design covering AI inclusion and technical capability",
     ],
   },
   {
-    role: "Product Manager, Applied ML",
-    company: "Startup Inc.",
-    period: "2021 – 2023",
+    role: "Scientist-SD (Product Manager, NavIC Applications)",
+    company: "Indian Space Research Organisation (ISRO)",
+    period: "2022 – 2024",
     bullets: [
-      "Owned the end-to-end product lifecycle for NLP-powered features including search, recommendations, and content moderation",
-      "Launched a RAG-based knowledge assistant that reduced support ticket volume by 45%",
-      "Built and maintained a quarterly roadmap balancing user needs, technical debt, and research bets",
+      "Led cross-functional sprints to ship 5+ end-to-end software products including a drone tracking platform and IoT enrollment device management platform; drove 27% increase in NavIC user acquisition",
+      "Established product development process for NavIC Personal Tracker accessories; launched 5 accessories in two years",
+      "Implemented 15% cost reduction in annual transport spending by designing automated billing system for 20,000 government vehicles",
+      "Led product strategy and delivery for Bhuvan API geospatial platform to B2B customers; drove 20% increase in API call volume",
     ],
   },
   {
-    role: "Associate Product Manager",
-    company: "DataCorp",
-    period: "2019 – 2021",
+    role: "Scientist-SC (Associate Product Manager, NavIC)",
+    company: "Indian Space Research Organisation (ISRO)",
+    period: "2018 – 2022",
     bullets: [
-      "Managed analytics dashboards and data pipeline products used by 200+ internal analysts",
-      "Conducted user research and competitive analysis to inform product decisions",
-      "Coordinated cross-functional squads of engineers, designers, and data scientists",
+      "Developed 1-year and 5-year strategic priorities, investment priorities, and success metrics for the Navigation Applications Group",
+      "Led end-to-end lifecycle of NavIC-based hazardous material trackers; architected FOTA pipeline ensuring 99.9% uptime in remote environments",
+      "Drove strategic collaboration between ISRO, Qualcomm, and Xiaomi — NavIC integrated into 25%+ of Android handsets sold in India",
+      "Built ML models (LSTM) to analyze global satellite signal performance, defining next-gen product strategy",
+      "Drove 2.5x increase in market adoption for NavIC Messaging Receiver; led UI/UX redesign using VoC data and A/B testing",
+    ],
+  },
+  {
+    role: "Summer Intern",
+    company: "IBM Research Laboratory",
+    period: "2016",
+    bullets: [
+      "Generated self-evolving filters for image processing using genetic algorithms (AI/ML), increasing throughput by 40%",
     ],
   },
 ];
@@ -38,7 +49,7 @@ export default function Experience() {
         <h2 className="text-3xl font-bold mb-12">Experience</h2>
         <div className="space-y-10">
           {experiences.map((exp) => (
-            <div key={exp.role}>
+            <div key={exp.role + exp.period}>
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-3">
                 <div>
                   <h3 className="text-lg font-bold">{exp.role}</h3>

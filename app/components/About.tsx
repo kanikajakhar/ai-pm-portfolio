@@ -6,21 +6,25 @@ export default function About() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2 space-y-4 text-zinc-600 dark:text-zinc-400 leading-relaxed">
             <p>
-              I&apos;m a product manager specializing in AI/ML products with
-              experience spanning recommendation systems, NLP platforms, and
-              computer vision applications. I thrive at the intersection of user
-              research, data science, and engineering.
+              I&apos;m an AI Product Manager with a unique blend of space
+              technology, management consulting, and hands-on ML experience.
+              At ISRO, I led cross-functional teams to ship satellite
+              navigation products and drone-tracking platforms used across
+              India.
             </p>
             <p>
-              My approach: start with the problem, not the technology. I focus on
-              measurable outcomes, rapid experimentation, and building feedback
-              loops that make products smarter over time.
+              At BCG, I architected enterprise-wide AI inclusion frameworks
+              for Fortune-500 clients, identifying $15M+ in operational
+              efficiencies. I thrive on translating complex technical
+              capabilities into products that drive measurable business
+              outcomes.
             </p>
             <p>
-              Previously, I&apos;ve worked with cross-functional teams to ship AI
-              features used by millions. I&apos;m passionate about responsible AI,
-              explainability, and making complex ML systems accessible to
-              everyone.
+              Currently pursuing my MBA at Yale School of Management, I&apos;m
+              deepening my expertise in AI product strategy while serving as a
+              speaker and panelist advocating for gender diversity in space and
+              technology. 2nd place at the Google AI Hackathon building an AI
+              agent for the visually impaired.
             </p>
           </div>
           <div className="space-y-4">
@@ -28,17 +32,20 @@ export default function About() {
               <p className="text-sm text-zinc-500 dark:text-zinc-500">
                 Location
               </p>
-              <p className="font-medium">San Francisco, CA</p>
+              <p className="font-medium">New Haven, CT</p>
             </div>
             <div className="bg-zinc-50 dark:bg-zinc-800/50 rounded-lg p-4">
               <p className="text-sm text-zinc-500 dark:text-zinc-500">
                 Education
               </p>
-              <p className="font-medium">MBA, CS Degree</p>
+              <p className="font-medium">MBA, Yale SOM</p>
+              <p className="text-sm text-zinc-500">B.Tech EE, IIT Jodhpur</p>
             </div>
             <div className="bg-zinc-50 dark:bg-zinc-800/50 rounded-lg p-4">
-              <p className="text-sm text-zinc-500 dark:text-zinc-500">Focus</p>
-              <p className="font-medium">AI/ML Products</p>
+              <p className="text-sm text-zinc-500 dark:text-zinc-500">
+                Focus
+              </p>
+              <p className="font-medium">AI Products & Strategy</p>
             </div>
           </div>
         </div>

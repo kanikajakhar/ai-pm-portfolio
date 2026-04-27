@@ -6,12 +6,12 @@ export default function Hero() {
           AI Product Manager
         </p>
         <h1 className="text-5xl md:text-7xl font-bold tracking-tight mb-6">
-          Your Name
+          Kanika Jakhar
         </h1>
         <p className="text-lg md:text-xl text-zinc-600 dark:text-zinc-400 leading-relaxed mb-10">
-          I build AI-powered products that solve real problems. From strategy to
-          shipping, I bridge the gap between cutting-edge ML and delightful user
-          experiences.
+          MBA @ Yale | Ex-BCG & ISRO | I build AI-powered products at the
+          intersection of space tech, enterprise strategy, and emerging
+          technology.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <a

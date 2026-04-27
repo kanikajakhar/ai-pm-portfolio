@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Product Manager — Portfolio",
+  title: "Kanika Jakhar — AI Product Manager",
   description:
-    "AI Product Manager portfolio showcasing projects, skills, and experience in building AI-powered products.",
+    "AI Product Manager | MBA @ Yale | Ex-BCG & ISRO. Building AI-powered products at the intersection of strategy, space tech, and emerging technology.",
 };
 
 export default function RootLayout({

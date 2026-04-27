@@ -21,7 +21,7 @@ export default function Home() {
         <Contact />
       </main>
       <footer className="py-8 px-6 text-center text-sm text-zinc-400 border-t border-zinc-200 dark:border-zinc-800">
-        &copy; {new Date().getFullYear()} Your Name. Built with Next.js &amp;
+        &copy; {new Date().getFullYear()} Kanika Jakhar. Built with Next.js &amp;
         Tailwind CSS.
       </footer>
     </>
