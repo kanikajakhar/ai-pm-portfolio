@@ -2,7 +2,7 @@ import FadeIn from "./FadeIn";
 
 export default function Yale() {
   return (
-    <section className="py-28 md:py-36 px-6">
+    <section id="yale" className="py-28 md:py-36 px-6">
       <div className="max-w-[720px] mx-auto text-center">
         <FadeIn>
           <p className="text-sm font-medium tracking-wider text-accent uppercase mb-3">
