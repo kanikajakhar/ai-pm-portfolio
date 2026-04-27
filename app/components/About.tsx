@@ -11,23 +11,23 @@ export default function About() {
           <h2 className="text-4xl md:text-[48px] font-bold tracking-tight leading-tight mb-8">
             Building the future
             <br />
-            with AI.
+            with AI and data
           </h2>
         </FadeIn>
         <FadeIn delay={100}>
           <p className="text-lg md:text-xl text-secondary leading-relaxed mb-6">
-            I&apos;m an AI Product Manager with a unique blend of{" "}
+            I&apos;m a Product Manager with a unique blend of{" "}
             <span className="text-foreground font-medium">space technology</span>,{" "}
             <span className="text-foreground font-medium">management consulting</span>, and{" "}
             <span className="text-foreground font-medium">hands-on ML</span> experience.
-            At ISRO, I led cross-functional teams to ship satellite navigation
-            products and drone-tracking platforms used across India.
+            At ISRO, I led cross-functional teams to ship multiple software
+            products used widely in the scientific community, defence forces and mobile applications
           </p>
         </FadeIn>
         <FadeIn delay={200}>
           <p className="text-lg md:text-xl text-secondary leading-relaxed mb-6">
             At BCG, I architected enterprise-wide AI inclusion frameworks for
-            Fortune-500 clients, identifying $15M+ in operational efficiencies.
+            Fortune-500 client, identifying $15M+ in operational efficiencies.
             I thrive on translating complex technical capabilities into products
             that drive measurable business outcomes.
           </p>
@@ -35,8 +35,7 @@ export default function About() {
         <FadeIn delay={300}>
           <p className="text-lg md:text-xl text-secondary leading-relaxed mb-14">
             Currently pursuing my MBA at Yale School of Management, deepening
-            my expertise in AI product strategy while advocating for gender
-            diversity in space and technology.
+            my expertise in AI product strategy while advocating for a sustainable future.
           </p>
         </FadeIn>
         <FadeIn delay={400}>
@@ -55,7 +54,7 @@ export default function About() {
             </div>
             <div className="bg-background rounded-2xl p-5">
               <p className="text-xs text-secondary/60 uppercase tracking-wider mb-1">Focus</p>
-              <p className="font-semibold text-sm">AI Products</p>
+              <p className="font-semibold text-sm">Products Strategy</p>
             </div>
           </div>
         </FadeIn>

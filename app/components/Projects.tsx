@@ -2,6 +2,14 @@ import FadeIn from "./FadeIn";
 
 const projects = [
   {
+    title: "NavIC AI/ML Platform",
+    tag: "AI / ML Platform",
+    description:
+      "Led product strategy for the NavIC AI/ML platform serving 4 cross-functional segments. Designed the roadmap for a centralized platform to process GNSS telemetry and signal data across Space, Ground, User, and Research segments. Harmonized data requirements between hardware engineers and data scientists to support real-time satellite monitoring and long-term ionospheric modeling.",
+    metrics: ["4 segments", "Real-time + ML"],
+    color: "bg-indigo-500",
+  },
+  {
     title: "NavIC Drone Tracking Platform",
     tag: "IoT / Geospatial",
     description:
