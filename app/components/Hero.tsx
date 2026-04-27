@@ -19,7 +19,7 @@ export default function Hero() {
         </FadeIn>
         <FadeIn delay={200}>
           <p className="text-xl md:text-2xl text-white/70 font-light leading-relaxed max-w-xl mx-auto mb-6">
-            Leading AI products that transform complex technical infrastructure into lean, high-ROI operations
+            Driving AI innovation to simplify everyday operations and enhance user trust
           </p>
         </FadeIn>
         <FadeIn delay={300}>
