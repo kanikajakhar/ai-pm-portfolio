@@ -17,23 +17,7 @@ const projects = [
     metrics: ["$15M+ identified", "C-suite alignment"],
     color: "bg-violet-500",
   },
-  {
-    title: "NavIC AI/ML Platform",
-    tag: "AI / ML Platform",
-    description:
-      "Led product strategy for the NavIC AI/ML platform serving 4 cross-functional segments. Designed the roadmap for a centralized platform to process GNSS telemetry and signal data across Space, Ground, User, and Research segments. Harmonized data requirements between hardware engineers and data scientists to support real-time satellite monitoring and long-term ionospheric modeling.",
-    metrics: ["Cross-functional leadership", "ML Product"],
-    color: "bg-indigo-500",
-  },
-  {
-    title: "NavIC Drone Tracking Platform",
-    tag: "IoT Management Platform",
-    description:
-      "Led cross-functional sprints to ship drone tracking platform reducing operational overhead by 20%",
-    metrics: ["5+ products shipped", "27% user growth"],
-    color: "bg-blue-500",
-  },
-  {
+    {
     title: "Cloud Data Migration & Cost Optimization",
     tag: "Cloud / Infrastructure",
     description:
@@ -56,6 +40,22 @@ const projects = [
       "Analyzed customer zero data across Remote Sensing Application teams to deliver insights about emerging features, such as automated change detection and sub-meter object classification. Iterated with stakeholders to drive product improvements prior to public releases.",
     metrics: ["Customer zero insights", "Pre-release iteration"],
     color: "bg-amber-500",
+  },
+  {
+    title: "NavIC AI/ML Platform",
+    tag: "AI / ML Platform",
+    description:
+      "Led product strategy for the NavIC AI/ML platform serving 4 cross-functional segments. Designed the roadmap for a centralized platform to process GNSS telemetry and signal data across Space, Ground, User, and Research segments. Harmonized data requirements between hardware engineers and data scientists to support real-time satellite monitoring and long-term ionospheric modeling.",
+    metrics: ["Cross-functional leadership", "ML Product"],
+    color: "bg-indigo-500",
+  },
+  {
+    title: "NavIC Drone Tracking Platform",
+    tag: "IoT Management Platform",
+    description:
+      "Led cross-functional sprints to ship drone tracking platform reducing operational overhead by 20%",
+    metrics: ["5+ products shipped", "27% user growth"],
+    color: "bg-blue-500",
   },
   {
     title: "NavIC on Android",
