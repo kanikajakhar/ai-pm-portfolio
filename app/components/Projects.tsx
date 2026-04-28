@@ -22,7 +22,7 @@ const projects = [
     tag: "Cloud / Infrastructure",
     description:
       "Directed the migration of mission-critical datasets to a unified cloud storage platform, deprecating high-maintenance legacy systems. Optimized cloud resource allocation and data lifecycle policies, reducing engineering overhead and MTTR by 60%, ensuring 24/7 data access",
-    metrics: ["MTTR reduced by 60%", "System Availability improved"],
+    metrics: ["MTTR reduced by 60%", "System Availability improved", "AWS"],
     color: "bg-slate-500",
   },
   {
@@ -93,11 +93,20 @@ const projects = [
 
 const sideProjects = [
   {
+    title: "NBA 3-Point Shot Selection Analytics",
+    tag: "Sports Analytics",
+    description:
+      "Analyzed 5 seasons of NBA shooting data using the nba_api to evaluate whether midrange jumpers are underutilized. Compared Expected Points Per Shot (EPPS) across defender distances, explored playoff efficiency shifts, and proposed rule changes to rebalance shot selection.",
+    metrics: ["5 seasons", "EPPS modeling"],
+    color: "bg-red-500",
+    url: "https://github.com/MGT817-F2025/project-nba-3-point-shot-selection",
+  },
+  {
     title: "Nemo Drifter — Aquatic IoT Monitor",
     tag: "IoT / Embedded",
     description:
       "Arduino-based environmental monitoring system integrating pH, conductivity, dissolved oxygen, and temperature sensors with GSM/GPRS cellular data transmission and GPS tracking for real-time aquatic data logging.",
-    metrics: ["Multi-sensor", "GSM + GPS"],
+    metrics: ["Multi-sensor", "GSM + GPS", "UDP communicaton"],
     color: "bg-sky-500",
     url: "https://github.com/kanikajakhar/nemo_drifter",
   },
@@ -119,15 +128,7 @@ const sideProjects = [
     color: "bg-fuchsia-500",
     url: "https://github.com/kanikajakhar/homework",
   },
-  {
-    title: "NBA 3-Point Shot Selection Analytics",
-    tag: "Sports Analytics",
-    description:
-      "Analyzed 5 seasons of NBA shooting data using the nba_api to evaluate whether midrange jumpers are underutilized. Compared Expected Points Per Shot (EPPS) across defender distances, explored playoff efficiency shifts, and proposed rule changes to rebalance shot selection.",
-    metrics: ["5 seasons", "EPPS modeling"],
-    color: "bg-red-500",
-    url: "https://github.com/MGT817-F2025/project-nba-3-point-shot-selection",
-  },
+  
 ];
 
 export default function Projects() {
